@@ -8,7 +8,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('Yeni Tarif', 'bu bir testtir', 'https://cdn.yemek.com/mnresize/1250/833/uploads/2023/03/sihil-mahsi-yemekcom.jpg')
+    new Recipe('Yeni Tarif', 'bu bir testtir', 'https://cdn.yemek.com/mnresize/1250/833/uploads/2023/03/sihil-mahsi-yemekcom.jpg'),
+    new Recipe('Yeni Tarif2', 'bu bir testtir2', 'https://cdn.yemek.com/mnresize/1250/833/uploads/2023/03/sihil-mahsi-yemekcom.jpg')
   ];
 
   constructor() {}
